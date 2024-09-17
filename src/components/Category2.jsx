@@ -19,7 +19,7 @@ const Category2 = () => {
                             <Shopbutton text={'Browse'} bgcolor={'bg-primary'} textcolor={'text-white'}/>
                         </div>
                     </div>
-                    <img src={gaming} alt="" className=' -translate-y-1/2 top-1/2 right-0 w-[320px] hover:scale-125 duration-300 '/>
+                    <img src={gaming} alt="" className='absolute -translate-y-1/2 top-1/2 right-0 w-[320px] hover:scale-125 duration-300 '/>
                 </div>
                 <div className='py-10 pl-5 bg-gradient-to-br from-brandGreen to-brandGreen/70
                  text-white rounded-3xl relative h-[320px] flex items-end' data-aos="zoom-out">
