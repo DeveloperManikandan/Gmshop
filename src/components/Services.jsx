@@ -30,7 +30,7 @@ const data=[
 const Services = ({theme}) => {
   return (
     <div>
-    <div className='container m-10'>
+    <div className='container'>
       <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 gap-y-8 mt-12 md:mt-18'>
         {data.map((item, index) => (
           <div key={item.id} className={`${theme==='light'?'bg-white':'bg-gray-500 text-gray-100'} rounded-lg shadow-md p-8`}>
