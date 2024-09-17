@@ -9,9 +9,9 @@ const Category = () => {
     <div>
     <div className='py-8 pt-20'>
         <div className='container' id='shop'>
-            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8'>
+            <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-8'>
                 <div className='py-10 pl-5 bg-gradient-to-br from-black/90 to-black/70
-                 text-white rounded-3xl relative h-[320px] flex items-end' data-aos="slide-right">
+                 text-white rounded-3xl relative h-[320px] flex items-end' data-aos="zoom-out">
                     <div>
                         <div className='mb-4' >
                             <p className='mb-[2px] text-gray-400'>Enjoy</p>
@@ -35,7 +35,7 @@ const Category = () => {
                     <img src={watch} alt="" className='absolute top-3 left- w-[320px] hover:scale-125 duration-300 hover:top-2'/>
                 </div>
                 <div className='col-span-2 py-10 pl-5 bg-gradient-to-br from-primary to-primary/90
-                 text-white rounded-3xl relative h-[320px] flex items-end' data-aos="slide-left">
+                 text-white rounded-3xl relative h-[320px] flex items-end' data-aos="zoom-in">
                     <div>
                         <div className='mb-4' >
                             <p className='mb-[2px] text-gray-700'>Enjoy</p>

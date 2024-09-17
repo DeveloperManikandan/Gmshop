@@ -25,7 +25,7 @@ image: headphone,
 title2: "Air Solo Bass",
 title3: "Winter Sale",
 title4:
-"Lorem ipsum, dolor sit amet consectetur adipisicing elit,Eaque reiciendis",
+"Enjoy this summery sale with wonderfull offers",
 bgColor: "bg-primary",
 text:"text-primary",
 }
@@ -38,7 +38,7 @@ image: watch,
 title2: "Air Solo Bass",
 title3: "Winter Sale",
 title4:
-"Lorem ipsum, dolor sit amet consectetur adipisicing elit,Eaque reiciendis",
+"Enjoy this summery sale with wonderfull offers",
 bgColor: "bg-brandGreen",
 text:"text-brandGreen",
 }
@@ -60,7 +60,7 @@ const App = () => {
     AOS.init(
       {
         duration: 800,
-      offset: 100, 
+      offset: 0, 
       easing: 'ease-in-sine',
       delay: 100,
       }

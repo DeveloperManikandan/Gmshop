@@ -18,8 +18,8 @@ const Popup = ({theme ,popup, handlePopup,handleOrder}) => {
                     </div>
                     <div>
                         <input type="text" name="" placeholder='name'  className='border-black b-2 rounded-lg border py-1 px-2 w-full mb-4'/>
-                        <input type="text" name="" placeholder='name' className='border-black b-2 rounded-lg border py-1 px-2 w-full mb-4'/>
-                        <input type="text" name="" placeholder='name' className='border-black b-2 rounded-lg border py-1 px-2 w-full mb-4'/>
+                        <input type="text" name="" placeholder='email' className='border-black b-2 rounded-lg border py-1 px-2 w-full mb-4'/>
+                        <input type="text" name="" placeholder='address' className='border-black b-2 rounded-lg border py-1 px-2 w-full mb-4'/>
                         <div className='justify-center flex' onClick={handleOrder}>
                         <Shopbutton bgcolor={'bg-primary'} text={'place order'} textcolor={'text-white'} />
                         </div>
